@@ -1,8 +1,17 @@
-body{
+body {
+    background-image: url('https://www.shutterstock.com/image-illustration/aesthetic-background-form-plants-empty-260nw-2190062247.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 h1{
     font-family:cursive;
     font-size: 50px;
@@ -13,10 +22,12 @@ p{
     font-size: 20px;
 }
 
-div{
+div {
     width: 50%;
-    text-align: center;
+    height: 200px; 
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
