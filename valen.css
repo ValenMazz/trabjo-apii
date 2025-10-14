@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://media.istockphoto.com/id/1314054062/es/vector/abstracto-simplemente-fondo-con-artes-de-l%C3%ADnea-natural.jpg?s=612x612&w=0&k=20&c=V4jqKJpHFXttSfE1_cN3TXnwf1ZftiBVdxmnojFgNT4=');
+    background-image: url('imagenes/13859605_5355886.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,10 +33,12 @@ div {
 }
 
 button{
+    background-color: rgb(193, 236, 197);
     padding: 1.5rem 1rem 1.5rem 1rem;
     border-radius: 10%;
     width: 100%;
     font-size: 110%;
-    border-color: rgb(165, 211, 195);
+    border-color: rgb(0, 0, 0);
+    border-width: 7%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
