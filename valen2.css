@@ -1,6 +1,6 @@
     body {
       font-family: 'Quicksand', sans-serif;
-      background: linear-gradient(160deg, #a8edea 0%, #fed6e3 100%);
+      background-image: url('imagenes/13859605_5355886.jpg');
       color: #2e2e2e;
       display: flex;
       flex-direction: column;
@@ -10,20 +10,28 @@
       margin: 0;
       text-align: center;
     }
-    h1 { font-size: 2.2em; }
+
+    h1 { 
+      font-size: 2.2em; 
+    }
+    
     select, button {
       margin-top: 15px;
       padding: 10px 15px;
       border-radius: 8px;
-      border: none;
       font-size: 1em;
     }
+
     button {
-      background-color: #4caf50;
-      color: white;
+      background-color: rgb(164, 214, 169);
+      color: rgb(0, 0, 0);
       cursor: pointer;
     }
-    button:hover { background-color: #45a049; }
+
+    button:hover { 
+      background-color: #45a049; 
+    }
+
     .plant-card {
       margin-top: 30px;
       background-color: rgba(255,255,255,0.8);
@@ -32,6 +40,7 @@
       width: 300px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
+
     .plant-card img {
       width: 100%;
       border-radius: 12px;
