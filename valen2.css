@@ -46,3 +46,8 @@
       border-radius: 12px;
     }
   
+    #btn {
+      position: absolute;
+      top: 20px;   /* separación desde arriba */
+      left: 20px;  /* separación desde la izquierda */
+    }
